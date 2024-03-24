@@ -23,6 +23,6 @@ RUN . /opt/ros/$ROS_DISTRO/setup.sh \
 
 RUN . /opt/ros/$ROS_DISTRO/setup.sh \
  && cd /catkin_ws \
- && catkin build
+ && catkin_make
  
  
